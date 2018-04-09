@@ -18,7 +18,7 @@ export default class ModalBox extends Component{
       >
         <View style={[styles.wrapper, styles.center]}>
           <View style={[styles.box, styles.center, { backgroundColor: this.props.color }]}>
-            <Text style={[styles.txt, { color: 'white' }]}>公共组件弹窗</Text>
+            <Text style={[styles.txt, { color: 'white' }]}>公共组件弹窗1</Text>
             <TouchableWithoutFeedback onPress={() => this.hide()}>
               <View style={[styles.btnWrapper, styles.center, { marginTop: 30, }]}>
                 <Text style={styles.txt}>关闭弹窗</Text>
