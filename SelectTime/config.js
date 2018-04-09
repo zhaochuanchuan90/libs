@@ -1,3 +1,4 @@
+
 const returnData = (num) => {
   const hoursArr = [];
   [...new Array(num)].map((item, index) => {
@@ -8,5 +9,5 @@ const returnData = (num) => {
   return hoursArr
 }
 
- export const hoursData = returnData(24);
- export const minutesData = returnData(60);
+export const hoursData = returnData(24);
+export const minutesData = returnData(60);
